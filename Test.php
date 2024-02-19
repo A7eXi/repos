@@ -6,15 +6,17 @@
 </head>
 <body>
 <h1>
-<?php
-echo "Синтаксис";
-?>
-</h1>
 <div>
 <?php
-echo "<h2>Переменные</h2>";
-echo "Типы данных";
+$users = ["Яблоко", "Апельсин", "Банан", "Груша"];
+$num = count($users);
+for($i=0; $i < $num; $i++)
+{
+    echo "$users[$i] <br />";
+}
 ?>
 </div>
 </body>
 </html>
+
+
